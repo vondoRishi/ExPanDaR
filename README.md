@@ -2,9 +2,9 @@ This project is forked from https://github.com/joachim-gassen/ExPanDaR/ to add f
 
 ## install  
   
-if (!require("ExPanDaR")) {  
-  devtools::install_github("vondoRishi/ExPanDaR")  
-}  
-  
-library(ExPanDaR)
+    if (!require("ExPanDaR")) {  
+      devtools::install_github("vondoRishi/ExPanDaR")  
+    }  
+
+    library(ExPanDaR)
 
