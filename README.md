@@ -1,4 +1,4 @@
-This project is forked from https://github.com/joachim-gassen/ExPanDaR/ to add features to keep an persistent state of data in R-studio shiny server.
+This project is forked from https://github.com/joachim-gassen/ExPanDaR/ to keep an persistent state of data in R-studio shiny server.
 
 ## install  
   
