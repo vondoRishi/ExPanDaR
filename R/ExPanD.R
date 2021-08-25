@@ -397,7 +397,7 @@ ExPanD <- function(df = NULL, cs_id = NULL, ts_id = NULL,
   file.copy(pkg_app_dir, tempdir(), recursive=TRUE)
   app_dir <- paste0(tempdir(), "/application")
   save(list = ls(pattern = "shiny"), file = paste0(app_dir, "/shiny_data.Rda"))
-  on.exit(unlink(app_dir, recursive = TRUE))
+  #on.exit(unlink(app_dir, recursive = TRUE))
   #try(shiny::runApp(appDir = app_dir, ...))
   return(app_dir)
 }
